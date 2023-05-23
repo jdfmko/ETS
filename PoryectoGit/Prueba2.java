@@ -7,10 +7,8 @@
  *
  * @author Daniel
  */
-public class PRUEBA {
-     //prueba de git
-    
-        public int numero_mayor(int a, int b, int c) {
+public class Prueba2 {
+     public int numero_mayor(int a, int b, int c) {
         if (a > b && a > c) {
             return a;
         } else if (c > b) {
@@ -18,5 +16,5 @@ public class PRUEBA {
         } else {
             return b;
         }
-    }
+    }   
 }
